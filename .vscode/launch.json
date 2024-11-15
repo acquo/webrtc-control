@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch WebRTC Control",
+            "url": "https://example.com/#this-could-be-anything",
+            "runtimeArgs": ["--load-extension=${workspaceFolder}"]
+        }
+    ]
+}
